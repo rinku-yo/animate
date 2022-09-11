@@ -10,3 +10,6 @@
     }
   }
 
+.animated-button-myzer{
+    animation: animated-button-animation 7s infinite;
+}
