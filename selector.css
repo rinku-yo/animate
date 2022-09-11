@@ -1,0 +1,16 @@
+.gjs-hovered{
+border: 1px dotted transparent;
+  background: 
+    linear-gradient(#ededed, #d1d1d1),
+    linear-gradient(60deg, #f5d020 0%, #f53803 74%);
+  background-origin: padding-box, border-box;
+  background-repeat: no-repeat;
+}
+.gjs-selected{
+border: 3px dashed transparent;
+  background: 
+    linear-gradient(#ededed, #d1d1d1),
+    linear-gradient(60deg, #f5d020 0%, #f53803 74%);
+  background-origin: padding-box, border-box;
+  background-repeat: no-repeat;
+}
