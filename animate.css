@@ -1,0 +1,27 @@
+.animated-button-myzer.btn-grad-main, .animated-button-myzer.btn-overlay{
+    
+    animation: animated-button-animation infinite 15s;
+    
+    background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+    background-size: 600%;
+
+}
+animated-button-myzer.btn-overlay{
+    position: absolute;
+    margin-top: -70px;
+    z-index: -1;
+    filter: blur(30px);
+    opacity: 0.8;
+}
+
+@keyframes animated-button-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
